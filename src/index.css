@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Outfit-Bold';
+  src: url('./fonts/Outfit-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit-Medium';
+  src: url('./fonts/Outfit-Medium.ttf') format('truetype');
+}

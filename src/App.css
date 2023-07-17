@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+html {
+  background-color: #0C0F0A;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 5vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  position: fixed;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding-top: 3vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  width: 90vw;
+  height: 10%;
+  font-family: 'Outfit-Bold', sans-serif;
+  font-size: 1.5vw;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-left a {
+  color: #fff;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar-right {
+  display: flex;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items li {
+  padding: 10px;
+}
+
+.nav-items li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-items li a:hover {
+  text-decoration: underline;
+}
+
+#about, #projects, #contactForm {
+  height: 100vh;
+  width: 100vw;
+}
+
+#home {
+  color: #fff;
+  height: 80vh;
+  width: 100vw;
+  font-family: 'Outfit-Bold', sans-serif;
+}
+
+#home, #projects, #contact-form {
+  color: #fff;  
+}
+
+.about-button {
+  background-color: #7731E9;
+  color: #fff;
+  border: none;
+  border-radius: 2rem 2rem;
+  font-family: 'Outfit-Medium', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  padding: 2vh 2vw;
+  margin: 1vh 0vw;
+  text-decoration: none;
+}
+
+.hero-text {
+  padding-top: 20vh;
+  padding-left: 10vh;
+  margin-bottom: 0;
+  overflow: break-word;
+}
+
+.highlighted-hero-text {
+  margin-top: 0;
+}
+
+.highlighted {
+  color: #7731E9;
+}
+
+#about {
+  background-color: #ffffffad;
+}
+
+.about-header {
+  padding-top: 5vh;
+  padding-left: 10vh;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 6vw;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 10vw;
   }
 }
