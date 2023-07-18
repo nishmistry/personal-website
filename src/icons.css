@@ -1,0 +1,110 @@
+.java {
+    /* Type=Default */
+
+    width: 512px;
+    height: 512px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+    /* Group */
+
+    position: absolute;
+    left: 13.28%;
+    right: 12.97%;
+    top: 0%;
+    bottom: 0%;
+
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 32.23%;
+    right: 34.04%;
+    top: 77.34%;
+    bottom: 14.4%;
+
+    background: #5382A1;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 29.26%;
+    right: 32.26%;
+    top: 66.39%;
+    bottom: 25.51%;
+
+    background: #5382A1;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 50.38%;
+    right: 27.31%;
+    top: 20.42%;
+    bottom: 41.63%;
+
+    background: #E76F00;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 13.28%;
+    right: 17.37%;
+    top: 84.59%;
+    bottom: 4.78%;
+
+    background: #5382A1;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 21.31%;
+    right: 28.45%;
+    top: 55.03%;
+    bottom: 36.17%;
+
+    background: #5382A1;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 71.1%;
+    right: 13.01%;
+    top: 54.08%;
+    bottom: 26.24%;
+
+    background: #5382A1;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 37.05%;
+    right: 37.17%;
+    top: 0%;
+    bottom: 45.14%;
+
+    background: #E76F00;
+
+
+    /* Vector */
+
+    position: absolute;
+    left: 26.58%;
+    right: 12.97%;
+    top: 90.52%;
+    bottom: 0%;
+
+    background: #5382A1;
+}

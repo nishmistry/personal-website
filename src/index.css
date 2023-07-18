@@ -21,3 +21,13 @@ code {
   font-family: 'Outfit-Medium';
   src: url('./fonts/Outfit-Medium.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Outfit-SemiBold';
+  src: url('./fonts/Outfit-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSans3-Regular';
+  src: url('./fonts/SourceSans3-Regular.ttf') format('truetype');
+}
