@@ -2,12 +2,12 @@ html {
   background-color: #0C0F0A;
   scroll-behavior: smooth;
   color: #fff;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   padding: 0;
-  display: flex;
 }
 
 h1 {
@@ -233,11 +233,37 @@ h1 {
   overflow: hidden;
 }
 
+/*
+
+
+
+
+
+
+
+
+*/
+
 #contact-container {
   height: 100vh;
   width: 100vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
   position: relative;
   overflow: hidden;
+}
+
+.contact-header {
+  font-family: 'Outfit-Bold', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2vh;
+}
+
+.contact-cta {
+  font-family: 'Outfit-Bold', sans-serif;
+  font-size: 4rem;
 }
 
 .footer-container {
