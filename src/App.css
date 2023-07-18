@@ -245,34 +245,95 @@ h1 {
 */
 
 #contact-container {
-  height: 100vh;
-  width: 100vw;
+  min-height: 80vh;
+  height: fit-content;
+  width: 80vw;
   padding-left: 10vw;
   padding-right: 10vw;
   padding-top: 5vh;
-  padding-bottom: 10vh;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-header {
   font-family: 'Outfit-Bold', sans-serif;
   font-size: 3rem;
-  margin-bottom: 2vh;
+  align-self: first baseline;
+  margin-bottom: 2vw;
 }
 
 .contact-cta {
   font-family: 'Outfit-Bold', sans-serif;
   font-size: 4rem;
+  margin-top: 2vh;
+  margin-bottom: 2vw;
+}
+
+#contact-cta-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-form-container {
+  height: fit-content;
+  background-color: #ffffff9a;
+  border-radius: 2rem;
+  width: 90vh;
+  padding-right: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  }
+
+#name {
+  margin-top: 3vh;
+}
+
+input, textarea {
+  font-family: 'SourceSans3-Regular', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 3vh;
+  width: 77vh;
+  border: none; 
+  background-color: #ffffff9a;
+  padding: 0.5rem;
+  border-radius: 1rem 1rem;
+  resize: none;
+}
+
+#submit-button {
+  background-image: linear-gradient(315deg, #27aab4bb, #8c25b2c0);  color: #fff;
+  border: none;
+  font-family: 'Outfit-Medium', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 1rem 1rem;
+  margin-bottom: 10vh;
+  align-self: center;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.268);
+
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  padding: .7rem 7rem;
+  margin: 1vh 0vw;
 }
 
 .footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(135deg, #32dde979, #b831e97a);
+  background-image: linear-gradient(315deg, #27aab4bb, #8c25b2c0);  color: #fff;
   width: 100vw;
-  height:20vh;
+  height:15vh;
 }
 
 .link-item {
@@ -293,6 +354,18 @@ h1 {
   .navbar {
     font-size: 1.5rem;
   }
+
+  .contact-cta {
+    font-size: 3rem;
+  }
+  
+  #contact-form-container {
+    width: 80vh; /* Adjust the width for smaller screens */
+  }
+
+  #contact-cta-container {
+    padding-left: 0; /* Reset the padding for smaller screens */
+  }
 }
 
 @media (max-width: 480px) {
@@ -307,6 +380,10 @@ h1 {
   .hero-text {
     padding-left: 10vw;
     width: 85vw;
+  }
+
+  .contact-cta {
+    font-size: 2rem;
   }
 }
 
