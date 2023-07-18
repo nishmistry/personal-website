@@ -11,7 +11,7 @@ function Navbar() {
         <ul className="nav-items">
           <li><a href="#about">about</a></li>
           <li><a href="#projects">projects</a></li>
-          <li><a href="#contact-form-container">contact</a></li>
+          <li><a href="#contact-container">contact</a></li>
         </ul>
       </div>
     </nav>

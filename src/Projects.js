@@ -5,7 +5,7 @@ import projectsData from "./ProjectsData"
 function Projects() {
   return (
     <div id="projects">
-      <h2>projects</h2>
+      <h2 className="projects-header">projects</h2>
       <div className="project-container">
       {projectsData.map((project) => (
           <div className="project" key={project.id}>
@@ -21,6 +21,9 @@ function Projects() {
           </div>
         ))}
       </div>
+      <div className="circle circle-1"></div>
+      <div className="circle circle-2"></div>
+      <div className="circle circle-3"></div>
     </div>
   );
 }

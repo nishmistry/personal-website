@@ -21,13 +21,18 @@ function ContactForm() {
   };
 
   return (
-    <div id="contact-form-container">
-      <h2>like what you see? let's get in <span className="highlighted">touch</span>.</h2>
-      <div id="contact-form">
-        <form onSubmit={handleSubmit}>
-          {/* Add your form fields and submit button here */}
-        </form>
+    <div className="contact-container" id="contact-container">
+      <div id="contact-form-container">
+        <h2>like what you see? let's get in <span className="highlighted">touch</span>.</h2>
+        <div id="contact-form">
+          <form onSubmit={handleSubmit}>
+            {/* Add your form fields and submit button here */}
+          </form>
+        </div>
       </div>
+      <div className="circle circle-1"></div>
+      <div className="circle circle-2"></div>
+      <div className="circle circle-3"></div>
     </div>
   );
 }
