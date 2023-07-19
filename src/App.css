@@ -233,16 +233,31 @@ h1 {
   overflow: hidden;
 }
 
-/*
+.projects-container {
+  height: fit-content;
+  background-color: #ffffff9a;
+  border-radius: 2rem;
+  margin-top: 2vh;
+}
 
+#projects img {
+  max-width: 40%;
+}
 
-
-
-
-
-
-
-*/
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-around;
+  align-content: space-evenly;
+  background-color: #ffffff;
+  height: fit-content;
+  border-radius: 1rem 1rem;
+  padding: 2vh 2vw;
+  border: none;
+  margin-bottom: 5vh;
+  box-shadow: 5px 5px 5px #0000002c;
+}
 
 #contact-container {
   min-height: 80vh;
@@ -273,7 +288,6 @@ h1 {
 }
 
 #contact-form-container {
-
   height: fit-content;
   background-color: #ffffff9a;
   border-radius: 2rem;
@@ -298,7 +312,6 @@ input, textarea {
   margin-top: 1.5vh;
   font-family: 'SourceSans3-Regular', sans-serif;
   font-size: 1.2rem;
-  /* margin-bottom: 3vh; */
   width: 85%;
   border: none; 
   background-color: #ffffff9a;
