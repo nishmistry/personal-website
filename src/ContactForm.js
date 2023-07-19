@@ -17,52 +17,55 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData.email);
-    // Add your form submission logic here
+    console.log(formData);
+
+    setFormData({
+      name: '',
+      email: '',
+      message: ''
+    });
   };
 
   return (
     <div className="contact-container" id="contact-container">
       <h2 className="contact-header">contact</h2>
-      <div id="contact-cta-container">
-        <h2 className="contact-cta">like what you see? let's get in <span className="highlighted">touch</span>.</h2>
-        <div id="contact-form-container">
-          <form onSubmit={handleSubmit}>
-              <div className="form-field">
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="form-field">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="form-field">
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <button type="submit" id="submit-button">Submit</button>
-            </form>
-        </div>
+      <h2 className="contact-cta">like what you see? let's get in <span className="highlighted">touch</span>.</h2>
+      <div id="contact-form-container">
+        <form onSubmit={handleSubmit} name="contact" data-netlify="true">
+          <div className="form-field">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="form-field">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="form-field">
+            <textarea
+              id="message"
+              name="message"
+              placeholder="message"
+              value={formData.message}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <button type="submit" id="submit-button">Submit</button>
+        </form>
       </div>
 
       <div className="circle circle-1"></div>

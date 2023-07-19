@@ -4,7 +4,7 @@ import './App.css';
 const technologies = [
   { name: 'Java', svg: 
     <svg width="100" height="100" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g clip-path="url(#clip0_102_1538)">
+    <g clipPath="url(#clip0_102_1538)">
     <path d="M189.613 395.958C189.613 395.958 170.047 407.336 203.537 411.186C244.109 415.815 264.845 415.151 309.556 406.689C309.556 406.689 321.31 414.059 337.727 420.443C237.497 463.4 110.887 417.955 189.613 395.958Z" fill="#5382A1"/>
     <path d="M177.368 339.902C177.368 339.902 155.423 356.146 188.938 359.613C232.278 364.084 266.505 364.45 325.731 353.045C325.731 353.045 333.923 361.35 346.803 365.892C225.62 401.327 90.6429 368.686 177.368 339.902Z" fill="#5382A1"/>
     <path d="M280.617 244.813C305.313 273.246 274.128 298.833 274.128 298.833C274.128 298.833 336.837 266.461 308.038 225.923C281.14 188.119 260.513 169.336 372.179 104.574C372.179 104.574 196.9 148.351 280.617 244.813Z" fill="#E76F00"/>
@@ -27,12 +27,12 @@ const technologies = [
     <path d="M257.225 510.108C386.89 510.108 378.793 453.878 378.793 453.878L378.648 395.624H254.912V378.133H427.796C427.796 378.133 510.768 387.543 510.768 256.71C510.768 125.877 438.348 130.517 438.348 130.517H395.127V191.228C395.127 191.228 397.457 263.648 323.863 263.648H201.139C201.139 263.648 132.188 262.534 132.188 330.286V442.314C132.188 442.314 121.72 510.108 257.225 510.108ZM325.453 470.935C313.143 470.935 303.192 460.985 303.192 448.674C303.192 436.363 313.143 426.413 325.453 426.413C337.764 426.413 347.714 436.363 347.714 448.674C347.714 460.985 337.764 470.935 325.453 470.935Z" fill="url(#paint1_linear_102_1532)"/>
     <defs>
     <linearGradient id="paint0_linear_102_1532" x1="49.0857" y1="47.7029" x2="302.204" y2="298.296" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#387EB8"/>
-    <stop offset="1" stop-color="#366994"/>
+    <stop stopColor="#387EB8"/>
+    <stop offset="1" stopColor="#366994"/>
     </linearGradient>
     <linearGradient id="paint1_linear_102_1532" x1="204.45" y1="208.617" x2="476.271" y2="465.579" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FFE052"/>
-    <stop offset="1" stop-color="#FFC331"/>
+    <stop stopColor="#FFE052"/>
+    <stop offset="1" stopColor="#FFC331"/>
     </linearGradient>
     </defs>
     </svg>  
@@ -48,11 +48,11 @@ const technologies = [
   },
   { name: 'JavaScript', svg: 
     <svg width="100" height="100" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g id="Type=Default" clip-path="url(#clip0_335_250)">
+    <g id="Type=Default" clipPath="url(#clip0_335_250)">
     <g id="Group">
-    <path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H512V512H0V0Z" fill="#F7DF1E"/>
-    <path id="Shape_2" fill-rule="evenodd" clip-rule="evenodd" d="M134.624 427.865L173.806 404.153C181.365 417.555 188.241 428.894 204.735 428.894C220.545 428.894 230.513 422.71 230.513 398.654V235.058H278.628V399.334C278.628 449.169 249.416 471.852 206.797 471.852C168.307 471.852 145.964 451.917 134.623 427.861" fill="black"/>
-    <path id="Shape_3" fill-rule="evenodd" clip-rule="evenodd" d="M304.762 422.709L343.939 400.026C354.252 416.868 367.656 429.24 391.369 429.24C411.305 429.24 424.018 419.272 424.018 405.524C424.018 389.027 410.959 383.184 388.962 373.564L376.937 368.405C342.222 353.63 319.194 335.071 319.194 295.89C319.194 259.803 346.689 232.307 389.651 232.307C420.24 232.307 442.235 242.962 458.043 270.801L420.581 294.858C412.332 280.08 403.399 274.239 389.652 274.239C375.561 274.239 366.624 283.174 366.624 294.858C366.624 309.293 375.561 315.137 396.18 324.073L408.208 329.228C449.107 346.757 472.135 364.627 472.135 404.837C472.135 448.144 438.11 471.856 392.401 471.856C347.722 471.856 318.851 450.549 304.763 422.709" fill="black"/>
+    <path id="Shape" fillRule="evenodd" clipRule="evenodd" d="M0 0H512V512H0V0Z" fill="#F7DF1E"/>
+    <path id="Shape_2" fillRule="evenodd" clipRule="evenodd" d="M134.624 427.865L173.806 404.153C181.365 417.555 188.241 428.894 204.735 428.894C220.545 428.894 230.513 422.71 230.513 398.654V235.058H278.628V399.334C278.628 449.169 249.416 471.852 206.797 471.852C168.307 471.852 145.964 451.917 134.623 427.861" fill="black"/>
+    <path id="Shape_3" fillRule="evenodd" clipRule="evenodd" d="M304.762 422.709L343.939 400.026C354.252 416.868 367.656 429.24 391.369 429.24C411.305 429.24 424.018 419.272 424.018 405.524C424.018 389.027 410.959 383.184 388.962 373.564L376.937 368.405C342.222 353.63 319.194 335.071 319.194 295.89C319.194 259.803 346.689 232.307 389.651 232.307C420.24 232.307 442.235 242.962 458.043 270.801L420.581 294.858C412.332 280.08 403.399 274.239 389.652 274.239C375.561 274.239 366.624 283.174 366.624 294.858C366.624 309.293 375.561 315.137 396.18 324.073L408.208 329.228C449.107 346.757 472.135 364.627 472.135 404.837C472.135 448.144 438.11 471.856 392.401 471.856C347.722 471.856 318.851 450.549 304.763 422.709" fill="black"/>
     </g>
     </g>
     <defs>
@@ -70,8 +70,8 @@ const technologies = [
   },
   { name: 'Git', svg:
     <svg width="100" height="100" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g clip-path="url(#clip0_308_2913)">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M494.662 233.836L277.204 16.3939C264.69 3.86871 244.377 3.86871 231.846 16.3939L186.691 61.549L243.973 118.83C257.285 114.333 272.548 117.349 283.16 127.962C293.822 138.64 296.817 154.034 292.21 167.39L347.415 222.595C360.771 217.993 376.181 220.972 386.848 231.655C401.756 246.558 401.756 270.712 386.848 285.625C371.935 300.538 347.781 300.538 332.862 285.625C321.648 274.4 318.878 257.93 324.556 244.115L273.072 192.632L273.067 328.113C276.701 329.917 280.133 332.316 283.16 335.332C298.068 350.234 298.068 374.389 283.16 389.313C268.247 404.221 244.082 404.221 229.191 389.313C214.283 374.389 214.283 350.234 229.191 335.332C232.874 331.654 237.136 328.873 241.683 327.004V190.26C237.136 188.402 232.879 185.637 229.191 181.932C217.895 170.652 215.179 154.078 220.966 140.208L164.505 83.7358L15.3993 232.83C2.86868 245.366 2.86868 265.679 15.3993 278.204L232.857 495.651C245.377 508.176 265.684 508.176 278.22 495.651L494.662 279.215C507.187 266.684 507.187 246.361 494.662 233.836Z" fill="#DE4C36"/>
+    <g clipPath="url(#clip0_308_2913)">
+    <path fillRule="evenodd" clipRule="evenodd" d="M494.662 233.836L277.204 16.3939C264.69 3.86871 244.377 3.86871 231.846 16.3939L186.691 61.549L243.973 118.83C257.285 114.333 272.548 117.349 283.16 127.962C293.822 138.64 296.817 154.034 292.21 167.39L347.415 222.595C360.771 217.993 376.181 220.972 386.848 231.655C401.756 246.558 401.756 270.712 386.848 285.625C371.935 300.538 347.781 300.538 332.862 285.625C321.648 274.4 318.878 257.93 324.556 244.115L273.072 192.632L273.067 328.113C276.701 329.917 280.133 332.316 283.16 335.332C298.068 350.234 298.068 374.389 283.16 389.313C268.247 404.221 244.082 404.221 229.191 389.313C214.283 374.389 214.283 350.234 229.191 335.332C232.874 331.654 237.136 328.873 241.683 327.004V190.26C237.136 188.402 232.879 185.637 229.191 181.932C217.895 170.652 215.179 154.078 220.966 140.208L164.505 83.7358L15.3993 232.83C2.86868 245.366 2.86868 265.679 15.3993 278.204L232.857 495.651C245.377 508.176 265.684 508.176 278.22 495.651L494.662 279.215C507.187 266.684 507.187 246.361 494.662 233.836Z" fill="#DE4C36"/>
     </g>
     <defs>
     <clipPath id="clip0_308_2913">
@@ -90,8 +90,8 @@ const technologies = [
     <path d="M368.824 6H346.281V73.4258H400.517V51.1387H368.824V6Z" fill="black"/>
     </g>
     <g id="symbol">
-    <path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M110.855 465.841L78.6182 104.262H432.851L400.579 465.784L255.518 506L110.855 465.841Z" fill="#E44D26"/>
-    <path id="Shape_2" fill-rule="evenodd" clip-rule="evenodd" d="M255.734 475.261L372.951 442.764L400.529 133.826H255.734V475.261Z" fill="#F16529"/>
+    <path id="Shape" fillRule="evenodd" clipRule="evenodd" d="M110.855 465.841L78.6182 104.262H432.851L400.579 465.784L255.518 506L110.855 465.841Z" fill="#E44D26"/>
+    <path id="Shape_2" fillRule="evenodd" clipRule="evenodd" d="M255.734 475.261L372.951 442.764L400.529 133.826H255.734V475.261Z" fill="#F16529"/>
     <g id="Union">
     <path d="M197.053 267.931H255.734V312.276H156.496L144.535 178.173H255.734V222.52H193L197.053 267.931Z" fill="#EBEBEB"/>
     <path d="M255.54 383.154L255.734 383.103V429.241L255.53 429.298L164.69 404.08L158.478 334.45H202.994L206.151 369.818L255.54 383.154Z" fill="#EBEBEB"/>
@@ -109,20 +109,20 @@ const technologies = [
     <path d="M204.664 29.0089V6H149.797V73.2566H204.664V50.2478H172.805V29.0089H204.664Z" fill="black"/>
     <path d="M282.54 6H227.673V29.6186L250.567 50.2478H227.673V73.2566H282.54V50.8566L261.726 29.0089H282.54V6Z" fill="black"/>
     <path d="M307.319 6H362.186V29.0089H340.487L362.186 50.8566V73.2566H307.319V50.2478H329.328L307.319 29.6186V6Z" fill="black"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M111.214 465.261L79 103.954H432.982L400.734 465.202L255.777 505.392L111.214 465.261Z" fill="#0071BC"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M256.288 474.653L373.275 442.47L400.685 134.043H256.288V474.653Z" fill="#29ABE2"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M152.738 266.786L156.619 311.034L256.288 266.786V222.466L152.738 266.786Z" fill="#B3B3B3"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M366.676 175.158L256.288 222.466V266.786L362.87 219.405L366.676 175.158Z" fill="#E6E6E6"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M256.288 382.559L255.946 382.611L206.517 369.336L203.288 334.042H158.802L165.01 403.573L255.936 428.75L256.288 428.666V382.559Z" fill="#E6E6E6"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M256.288 266.786V311.034H310.405L305.487 368.884L256.288 382.597V428.701L346.913 403.525L358.847 266.786H256.288Z" fill="white"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M256.288 266.786H152.738L156.619 311.034H256.288V266.786Z" fill="#E6E6E6"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M256.289 219.405V175.158H255.839H144.871L148.797 219.405H256.289Z" fill="#E6E6E6"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M256.288 175.158V218.85V219.405H362.87L366.676 175.158H256.288Z" fill="white"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M111.214 465.261L79 103.954H432.982L400.734 465.202L255.777 505.392L111.214 465.261Z" fill="#0071BC"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M256.288 474.653L373.275 442.47L400.685 134.043H256.288V474.653Z" fill="#29ABE2"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M152.738 266.786L156.619 311.034L256.288 266.786V222.466L152.738 266.786Z" fill="#B3B3B3"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M366.676 175.158L256.288 222.466V266.786L362.87 219.405L366.676 175.158Z" fill="#E6E6E6"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M256.288 382.559L255.946 382.611L206.517 369.336L203.288 334.042H158.802L165.01 403.573L255.936 428.75L256.288 428.666V382.559Z" fill="#E6E6E6"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M256.288 266.786V311.034H310.405L305.487 368.884L256.288 382.597V428.701L346.913 403.525L358.847 266.786H256.288Z" fill="white"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M256.288 266.786H152.738L156.619 311.034H256.288V266.786Z" fill="#E6E6E6"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M256.289 219.405V175.158H255.839H144.871L148.797 219.405H256.289Z" fill="#E6E6E6"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M256.288 175.158V218.85V219.405H362.87L366.676 175.158H256.288Z" fill="white"/>
     </svg>  
   },
   { name: 'IntelliJ', svg:
     <svg width="100" height="100" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g clip-path="url(#clip0_102_1164)">
+    <g clipPath="url(#clip0_102_1164)">
     <path d="M129.6 399.2L5.6001 301.6L67.2001 187.2L244 256L129.6 399.2Z" fill="url(#paint0_linear_102_1164)"/>
     <path d="M512 136.8L502.4 432.8L305.6 512L187.2 435.2L360 256L284.8 89.6L352.8 8L512 136.8Z" fill="url(#paint1_linear_102_1164)"/>
     <path d="M512 136.8L356 320.8L284.8 89.6L352.8 8L512 136.8Z" fill="url(#paint2_linear_102_1164)"/>
@@ -132,45 +132,45 @@ const technologies = [
     </g>
     <defs>
     <linearGradient id="paint0_linear_102_1164" x1="5.6001" y1="293.2" x2="243.52" y2="293.2" gradientUnits="userSpaceOnUse">
-    <stop offset="0.26" stop-color="#F97A12"/>
-    <stop offset="0.46" stop-color="#B07B58"/>
-    <stop offset="0.72" stop-color="#577BAE"/>
-    <stop offset="0.91" stop-color="#1E7CE5"/>
-    <stop offset="1" stop-color="#087CFA"/>
+    <stop offset="0.26" stopColor="#F97A12"/>
+    <stop offset="0.46" stopColor="#B07B58"/>
+    <stop offset="0.72" stopColor="#577BAE"/>
+    <stop offset="0.91" stopColor="#1E7CE5"/>
+    <stop offset="1" stopColor="#087CFA"/>
     </linearGradient>
     <linearGradient id="paint1_linear_102_1164" x1="188.32" y1="182.08" x2="608.504" y2="278.617" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#F97A12"/>
-    <stop offset="0.07" stop-color="#CB7A3E"/>
-    <stop offset="0.15" stop-color="#9E7B6A"/>
-    <stop offset="0.24" stop-color="#757B91"/>
-    <stop offset="0.33" stop-color="#537BB1"/>
-    <stop offset="0.43" stop-color="#387CCC"/>
-    <stop offset="0.54" stop-color="#237CE0"/>
-    <stop offset="0.66" stop-color="#147CEF"/>
-    <stop offset="0.79" stop-color="#0B7CF7"/>
-    <stop offset="1" stop-color="#087CFA"/>
+    <stop stopColor="#F97A12"/>
+    <stop offset="0.07" stopColor="#CB7A3E"/>
+    <stop offset="0.15" stopColor="#9E7B6A"/>
+    <stop offset="0.24" stopColor="#757B91"/>
+    <stop offset="0.33" stopColor="#537BB1"/>
+    <stop offset="0.43" stopColor="#387CCC"/>
+    <stop offset="0.54" stopColor="#237CE0"/>
+    <stop offset="0.66" stopColor="#147CEF"/>
+    <stop offset="0.79" stopColor="#0B7CF7"/>
+    <stop offset="1" stopColor="#087CFA"/>
     </linearGradient>
     <linearGradient id="paint2_linear_102_1164" x1="462.4" y1="313.76" x2="283.45" y2="31.5007" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FE315D"/>
-    <stop offset="0.08" stop-color="#CB417E"/>
-    <stop offset="0.16" stop-color="#9E4E9B"/>
-    <stop offset="0.25" stop-color="#755BB4"/>
-    <stop offset="0.34" stop-color="#5365CA"/>
-    <stop offset="0.44" stop-color="#386DDB"/>
-    <stop offset="0.54" stop-color="#2374E9"/>
-    <stop offset="0.66" stop-color="#1478F3"/>
-    <stop offset="0.79" stop-color="#0B7BF8"/>
-    <stop offset="1" stop-color="#087CFA"/>
+    <stop stopColor="#FE315D"/>
+    <stop offset="0.08" stopColor="#CB417E"/>
+    <stop offset="0.16" stopColor="#9E4E9B"/>
+    <stop offset="0.25" stopColor="#755BB4"/>
+    <stop offset="0.34" stopColor="#5365CA"/>
+    <stop offset="0.44" stopColor="#386DDB"/>
+    <stop offset="0.54" stopColor="#2374E9"/>
+    <stop offset="0.66" stopColor="#1478F3"/>
+    <stop offset="0.79" stopColor="#0B7BF8"/>
+    <stop offset="1" stopColor="#087CFA"/>
     </linearGradient>
     <linearGradient id="paint3_linear_102_1164" x1="78.56" y1="120.24" x2="509.437" y2="561.567" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FE315D"/>
-    <stop offset="0.04" stop-color="#F63462"/>
-    <stop offset="0.1" stop-color="#DF3A71"/>
-    <stop offset="0.17" stop-color="#C24383"/>
-    <stop offset="0.29" stop-color="#AD4A91"/>
-    <stop offset="0.55" stop-color="#755BB4"/>
-    <stop offset="0.92" stop-color="#1D76ED"/>
-    <stop offset="1" stop-color="#087CFA"/>
+    <stop stopColor="#FE315D"/>
+    <stop offset="0.04" stopColor="#F63462"/>
+    <stop offset="0.1" stopColor="#DF3A71"/>
+    <stop offset="0.17" stopColor="#C24383"/>
+    <stop offset="0.29" stopColor="#AD4A91"/>
+    <stop offset="0.55" stopColor="#755BB4"/>
+    <stop offset="0.92" stopColor="#1D76ED"/>
+    <stop offset="1" stopColor="#087CFA"/>
     </linearGradient>
     <clipPath id="clip0_102_1164">
     <rect width="512" height="512" fill="white"/>
