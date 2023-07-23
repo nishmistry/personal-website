@@ -31,6 +31,7 @@ function ContactForm() {
       <h2 className="contact-cta">like what you see? let's get in <span className="highlighted">touch</span>.</h2>
       <div id="contact-form-container">
         <form onSubmit={handleSubmit} name="contact" netlify>
+          <input type="hidden" name="form-name" value="contact" />
           <div className="form-field">
             <input
               type="text"
