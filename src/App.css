@@ -222,41 +222,104 @@ h1 {
 
 #projects {
   color: #fff;
-  min-height: 100vh;
+  min-height: 90vh;
   height: fit-content;
   width: 80vw;
   padding-left: 10vw;
   padding-right: 10vw;
   padding-top: 5vh;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
   position: relative;
   overflow: hidden;
 }
 
 .projects-container {
+  display: flex;
+  flex-wrap: wrap;
   height: fit-content;
   background-color: #ffffff9a;
   border-radius: 2rem;
-  margin-top: 2vh;
-}
-
-#projects img {
-  max-width: 40%;
+  margin-top: 4vh;
+  min-height: 70vh;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  justify-content: center;
 }
 
 .project {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
-  justify-content: space-around;
-  align-content: space-evenly;
+  max-width: 35%;
+  min-width: 250px;
+  justify-content: left;
+  align-self: center;
   background-color: #ffffff;
-  height: fit-content;
-  border-radius: 1rem 1rem;
+  min-height: 50vh;
+  max-height: fit-content;
+  border-radius: 2rem;
   padding: 2vh 2vw;
   border: none;
-  margin-bottom: 5vh;
+  margin: 2.5vh 2.5vw;
+  flex-wrap: space-evenly;
   box-shadow: 5px 5px 5px #0000002c;
+  color: #000000;
+  padding-bottom: 5vh;
+}
+
+.project-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+#projects img {
+  max-width: 100%;
+  min-width: 200px;
+  height: auto;
+  align-self: center;
+  margin: 0;
+}
+
+.project-info {
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+
+.project-info h3 {
+  font-family: 'Outfit-Bold', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.project-stack {
+  font-family: 'Outfit-Medium', sans-serif;
+  font-size: 1rem;
+}
+
+.project-info p {
+  font-family: 'SourceSans3-Regular', sans-serif;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+.project-button {
+  background-color: #7731E9;
+  color: #fff;
+  border: none;
+  font-family: 'Outfit-Medium', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2rem 2rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.593);
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1vh;
+  margin-right: 1vw;
+  margin-bottom: 3vh;
 }
 
 #contact-container {
@@ -386,6 +449,13 @@ input, textarea, #submit-button {
   }
 }
 
+@media (max-width: 500px) {
+  .rounded-box {
+    height: 150px;
+    width: 100px;
+  }
+}
+
 @media (max-width: 480px) {
   h1 {
     font-size: 3rem;
@@ -408,6 +478,16 @@ input, textarea, #submit-button {
     font-size: 2rem;
     padding-bottom: 4vh;
   }
+
+  #submit-button {
+    padding: .7rem 3rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 305px) {
@@ -416,7 +496,7 @@ input, textarea, #submit-button {
   }
 
   .navbar {
-    font-size: 1.2rem;
+    font-size: 1rem;
     overflow: scroll;
     scrollbar-width: thin;
   }
