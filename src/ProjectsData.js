@@ -7,7 +7,7 @@ const projectsData = [
       liveLink: "about:blank",
       githubLink: "https://github.com/nishmistry/bullet-journal",
       stack: "Java, JavaFX",
-      imageSrc: "/bulletjournal.png",
+      imageSrc: "/bulletjournal.webp",
       altText: "Bullet Journal (Project 1) Image",
     },
     {
@@ -18,7 +18,7 @@ const projectsData = [
       liveLink: "https://nakhbucks-87e0dbafaa56.herokuapp.com/",
       githubLink: "https://github.com/nishmistry/nakhbucks",
       stack: "Python, Flask, HTML, CSS, JavaScript, jQuery",
-      imageSrc: "/nakhbucks.png",
+      imageSrc: "/nakhbucks.webp",
       altText: "NakhBucks (Project 2) Image",
     },
     {
@@ -29,7 +29,7 @@ const projectsData = [
       liveLink: "https://www.nishmistry.com",
       githubLink: "https://github.com/nishmistry/personal-website",
       stack: "JavaScript, React, HTML, CSS",
-      imageSrc: "/personalwebsite.png",
+      imageSrc: "/personalwebsite.webp",
       altText: "Personal Website (Project 3) Image",
     },
   ];
