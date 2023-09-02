@@ -4,7 +4,7 @@ const projectsData = [
       title: "Bullet Journal",
       description: "Feature-rich weekly planner with persistence, password-protection, commitment warnings, and themes, to name a few.",
       liveLinkText: "Youtube",
-      liveLink: "about:blank",
+      liveLink: "https://youtu.be/H3ugFINHh04",
       githubLink: "https://github.com/nishmistry/bullet-journal",
       stack: "Java, JavaFX",
       imageSrc: "/bulletjournal.webp",
