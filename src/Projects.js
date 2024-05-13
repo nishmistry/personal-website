@@ -16,12 +16,16 @@ function Projects() {
               <h3>{project.title}</h3>
               <em className="project-stack">{project.stack}</em>
               <p>{project.description}</p>
-              <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-button">
-                {project.liveLinkText}
-              </a>
-              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-button">
-                GitHub
-              </a>
+              {project.liveLink && (
+                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-button">
+                  {project.liveLinkText}
+                </a>
+              )}
+              {project.githubLink && (
+                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-button">
+                  GitHub
+                </a>
+              )}
             </div>
           </div>
         ))}

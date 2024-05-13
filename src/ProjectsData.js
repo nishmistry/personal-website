@@ -1,6 +1,22 @@
 const projectsData = [
     {
       id: 1,
+      title: "Sunday Reset",
+      description: "Chore management application designed for people in shared spaces. Custom Java backend, cross-platform React frontends.",
+      stack: "Java, Spring, SQL, MySQL, JavaScript, React, React Native, HTML, CSS",
+      imageSrc: "/bulletjournal.webp",
+      altText: "Sunday Reset (Project 1) Image",
+    },
+    {
+      id: 2,
+      title: "StockBot",
+      description: "Algorithmic trading bot written in Python. Backtested on trailing 10 years of historical data.",
+      stack: "Python, NumPy, Pandas, Backtesting.py",
+      imageSrc: "/bulletjournal.webp",
+      altText: "StockBot (Project 2) Image",
+    },
+    {
+      id: 3,
       title: "Bullet Journal",
       description: "Feature-rich weekly planner with persistence, password-protection, commitment warnings, and themes, to name a few.",
       liveLinkText: "Youtube",
@@ -8,10 +24,19 @@ const projectsData = [
       githubLink: "https://github.com/nishmistry/bullet-journal",
       stack: "Java, JavaFX",
       imageSrc: "/bulletjournal.webp",
-      altText: "Bullet Journal (Project 1) Image",
+      altText: "Bullet Journal (Project 3) Image",
     },
     {
-      id: 2,
+      id: 4,
+      title: "AccelCoin Miner",
+      description: "Protocol-conforming wallet and data-validator/miner for the AccelCoin blockchain. Project for CS2500.",
+      githubLink: "https://github.com/nishmistry/Accelcoin",
+      stack: "Racket",
+      imageSrc: "/bulletjournal.webp",
+      altText: "AccelCoin Miner (Project 4) Image",
+    },
+    {
+      id: 5,
       title: "NakhBucks",
       description: "Tool used to incentivize stamina-building on my competitive dance team, modeled after an IOU system.",
       liveLinkText: "View live",
@@ -19,10 +44,10 @@ const projectsData = [
       githubLink: "https://github.com/nishmistry/nakhbucks",
       stack: "Python, Flask, HTML, CSS, JavaScript, jQuery",
       imageSrc: "/nakhbucks.webp",
-      altText: "NakhBucks (Project 2) Image",
+      altText: "NakhBucks (Project 5) Image",
     },
     {
-      id: 3,
+      id: 6,
       title: "Personal Website",
       description: "This website!",
       liveLinkText: "View live",
@@ -30,7 +55,7 @@ const projectsData = [
       githubLink: "https://github.com/nishmistry/personal-website",
       stack: "JavaScript, React, HTML, CSS",
       imageSrc: "/personalwebsite.webp",
-      altText: "Personal Website (Project 3) Image",
+      altText: "Personal Website (Project 6) Image",
     },
   ];
 
