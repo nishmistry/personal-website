@@ -4,7 +4,7 @@ const projectsData = [
       title: "Sunday Reset",
       description: "Chore management application designed for people in shared spaces. Custom Java backend, cross-platform React frontends.",
       stack: "Java, Spring, SQL, MySQL, JavaScript, React, React Native, HTML, CSS",
-      imageSrc: "/bulletjournal.webp",
+      imageSrc: "/sundayreset.webp",
       altText: "Sunday Reset (Project 1) Image",
     },
     {
@@ -12,7 +12,7 @@ const projectsData = [
       title: "StockBot",
       description: "Algorithmic trading bot written in Python. Backtested on trailing 10 years of historical data.",
       stack: "Python, NumPy, Pandas, Backtesting.py",
-      imageSrc: "/bulletjournal.webp",
+      imageSrc: "/stockbot.webp",
       altText: "StockBot (Project 2) Image",
     },
     {
@@ -32,7 +32,7 @@ const projectsData = [
       description: "Protocol-conforming wallet and data-validator/miner for the AccelCoin blockchain. Project for CS2500.",
       githubLink: "https://github.com/nishmistry/Accelcoin",
       stack: "Racket",
-      imageSrc: "/bulletjournal.webp",
+      imageSrc: "/accelcoin.webp",
       altText: "AccelCoin Miner (Project 4) Image",
     },
     {
