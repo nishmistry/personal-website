@@ -403,6 +403,7 @@ input, textarea, #submit-button {
   letter-spacing: 0.05rem;
   padding: .7rem 5rem;
   margin: 2vh 0vw;
+  cursor: pointer;
 }
 
 .footer-container {
