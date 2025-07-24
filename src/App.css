@@ -22,11 +22,14 @@ h1 {
   padding-left: 10vw;
   padding-right: 10vw;
   width: 80vw;
-  padding-top: 2vh;
-  height: 10vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  height: auto;
+  min-height: 10vh;
   font-size: 2rem;
   justify-content: space-between;
   z-index: 1000;
+  background-color: #0000009a;
 }
 
 .navbar-left a {
@@ -61,10 +64,22 @@ h1 {
 }
 
 #home {
-  height: 65vh;
+  min-height: 65vh;
+  max-height: auto;
   width: 85vw;
   position: relative;
-  overflow: hidden;
+  background-color: #0000009a;
+  /* color: #000000; */
+  /* overflow: hidden; */
+}
+
+#home p {
+  font-family: 'SourceSans3-Regular', sans-serif;
+  font-size: 2rem;
+}
+
+.margin-below {
+  margin-bottom: 5vh;
 }
 
 .circle {
@@ -149,21 +164,25 @@ h1 {
   color: #7731E9;
 }
 
+.highlighted-secondary {
+  color: #00a4b9;
+}
+
 #about {
-  background-color: #ffffff9a;
+  /* background-color: #ffffff9a; */
   display: inline-flexbox;
   min-height: 100vh;
   height: fit-content + 5vh;
   width: 80vw;
-  color: #000000;
-  padding-top: 5vh;
+  /* color: #000000; */
+  padding-top: 8vh;
   padding-left: 10vw;
   padding-right: 10vw;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-.about-header, .projects-header {
+.about-header, .experience-header, .projects-header {
   font-family: 'Outfit-Bold', sans-serif;
   font-size: 3rem;
   margin-bottom: 2vh;
@@ -180,57 +199,114 @@ h1 {
   font-size: 1.5rem;
 }
 
-.technology-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: space-evenly;
-  background-color: #ffffff;
-  height: fit-content;
-  border-radius: 1rem 1rem;
-  padding: 2vh 2vw;
-  border: none;
-  margin-bottom: 5vh;
-  box-shadow: 5px 5px 5px #0000002c;
+#about a {
+  color: #fff;
 }
 
-.technology-item {
+.technology-container {
+  background-color: #ffffff9a;
+  border-radius: 1rem 1rem;
+  display: flex;
+  padding: 1rem 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.technology-box {
+  background-color: #fff;
+  color: #000;
+  border-radius: 1rem 1rem;
+  padding: 2rem 2rem;
+  margin: 1rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
-}
-
-.rounded-box {
+  justify-content: space-between;
   width: 150px;
   height: 150px;
-  border-radius: 10px;
-  background-color: #cecece42;
-  padding: 10px;
-  text-align: center;
 }
 
-.svg {
-  padding-top: 5px;
+.technology-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
 
-.rounded-box p {
-  color: #000000;
-  margin-top: 10px;
+.technology-text {
   font-family: 'Outfit-Medium', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
 }
 
-#projects {
+#projects, #experience {
   color: #fff;
-  min-height: 90vh;
+  min-height: 100vh;
   height: fit-content;
   width: 80vw;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-top: 5vh;
+  padding-top: 8vh;
   padding-bottom: 5vh;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vh;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.experience-item {
+  width: 100%;
+  max-width: 70vw;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #000;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 5px #0000002c;
+  padding: 2.5vh 3vw 2.5vh 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 120px;
+}
+
+.experience-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.experience-company {
+  font-family: 'Outfit-Bold', sans-serif;
+  font-size: 2rem;
+  color: #7731E9;
+}
+
+.experience-dates {
+  font-family: 'Outfit-Medium', sans-serif;
+  font-size: 1.5rem;
+  color: #7731E9;
+  padding-left: 1rem;
+}
+
+.experience-role {
+  font-family: 'Outfit-SemiBold', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-description {
+  font-family: 'SourceSans3-Regular', sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-top: 0.5rem;
 }
 
 .projects-container {
@@ -254,7 +330,8 @@ h1 {
   justify-content: left;
   align-self: center;
   background-color: #ffffff;
-  min-height: 50vh;
+  /* min-height: 50vh; */
+  min-height: 38vh;
   max-height: fit-content;
   border-radius: 2rem;
   padding: 2vh 2vw;
@@ -291,7 +368,7 @@ h1 {
 .project-info h3 {
   font-family: 'Outfit-Bold', sans-serif;
   font-size: 1.5rem;
-  margin-top: 0;
+  margin-top: 2vh;
   margin-bottom: 0;
 }
 
@@ -328,9 +405,9 @@ h1 {
   width: 80vw;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-top: 5vh;
+  padding-top: 8vh;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -412,7 +489,7 @@ input, textarea, #submit-button {
   align-items: center;
   background-image: linear-gradient(315deg, #27aab4bb, #8c25b2c0);  color: #fff;
   width: 100vw;
-  height:15vh;
+  height: 12vh;
 }
 
 .link-item {
@@ -443,10 +520,28 @@ input, textarea, #submit-button {
   .navbar {
     font-size: 1.5rem;
   }
+  
+  .nav-items {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
   .contact-cta {
     font-size: 3rem;
     padding-bottom: 3vh;
+  }
+
+  .technology-image {
+    height: 75px;
+    width: 75px;
+  }
+
+  .technology-box {
+    padding: 1rem 1rem;
+  }
+
+  .experience-item {
+    padding: 2.5vh 5vw 2.5vh 5vw;
   }
 }
 
