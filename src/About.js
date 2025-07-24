@@ -54,13 +54,13 @@ const technologies = [
   </svg>  
   },
   {
-    name: 'PyTorch',svg: <img src="/technologies/pytorch.webp" width="100" style={{ height: "auto"}}></img>
+    name: 'PyTorch',svg: <img src="/technologies/pytorch.webp" width="100" alt="PyTorch logo" style={{ height: "auto"}}></img>
   },
   {
-    name: 'Pandas',svg: <img src="/technologies/pandas.svg" height="100" style={{ width: "auto"}}></img>
+    name: 'Pandas',svg: <img src="/technologies/pandas.svg" height="100" alt="Pandas logo" style={{ width: "auto"}}></img>
   },
   {
-    name: 'Spring',svg: <img src="/technologies/javaspring.png" width="100" style={{ height: "auto"}}></img>
+    name: 'Spring',svg: <img src="/technologies/javaspring.png" width="100" alt="Java Spring logo" style={{ height: "auto"}}></img>
   },
   { name: 'React', svg:
     <svg width="100" height="100" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -108,13 +108,13 @@ const technologies = [
     </svg>  
   },
   {
-    name: 'AWS', svg: <img src="/technologies/Amazon_Web_Services_Logo.png" width="100" style={{ height: "auto"}}></img>
+    name: 'AWS', svg: <img src="/technologies/Amazon_Web_Services_Logo.png" width="100" alt="AWS logo" style={{ height: "auto"}}></img>
   },
   {
-    name: 'Jenkins', svg: <img src="/technologies/jenkins.png" height="100" style={{ width: "auto"}}></img>
+    name: 'Jenkins', svg: <img src="/technologies/jenkins.png" height="100" alt="Jenkins logo" style={{ width: "auto"}}></img>
   },
   {
-    name: 'Docker', svg: <img src="/technologies/docker.png" width="100" style={{ height: "auto"}}></img>
+    name: 'Docker', svg: <img src="/technologies/docker.png" width="100" alt="Docker logo" style={{ height: "auto"}}></img>
   },
   { name: 'Git', svg:
     <svg width="100" height="100" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -129,10 +129,10 @@ const technologies = [
     </svg>  
   },
   {
-    name: 'Snowflake', svg: <img src="/technologies/snowflake.png" width="100" style={{ height: "auto"}}></img>
+    name: 'Snowflake', svg: <img src="/technologies/snowflake.png" width="100" alt="Snowflake logo" style={{ height: "auto"}}></img>
   },
   {
-    name: 'SQL', svg: <img src="/technologies/sql.jpg" width="100" style={{ height: "auto"}}></img>
+    name: 'SQL', svg: <img src="/technologies/sql.jpg" width="100" alt="SQL logo" style={{ height: "auto"}}></img>
   },
   { name: 'MySQL', svg:
     <svg width="100" height="100" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -175,7 +175,7 @@ const technologies = [
     </svg>  
   },
   {
-    name: 'PostgreSQL', svg: <img src="/technologies/postgresql.png" width="100" style={{ height: "auto"}}></img>
+    name: 'PostgreSQL', svg: <img src="/technologies/postgresql.png" width="100" alt="PostgreSQL logo" style={{ height: "auto"}}></img>
   },
 ];
 
