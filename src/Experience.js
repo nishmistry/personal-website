@@ -5,7 +5,7 @@ const experiences = [
   {
     company: "Chewy",
     role: "AI Engineer Intern, Unbound Program",
-    dates: "June 2025 – Present",
+    dates: "Jun 2025 – Present",
     description: "Building an agentic customer segmentation and insights platform, leveraging LLMs, knowledge graphs, and traditional machine learning models -- providing a more customized, nuanced experience for each customer."
   },
   {
