@@ -29,7 +29,7 @@ const experiences = [
   {
     company: "National Internet Observatory",
     role: "Software Engineer Co-op",
-    dates: "Sep 2022 – Dec 2022",
+    dates: "Jan 2024 – May 2024",
     description: "Built new scrapers and improved existing infrastruction to improve data quality for our researchers. Improved accessibility through adding multi-language support."
   }
 ];
